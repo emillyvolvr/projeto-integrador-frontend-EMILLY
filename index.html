@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VitrineStore | Moda Feminina</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a class="logo" href="index.html">VitrineStore</a>
+
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#video">Vídeo</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="inicio" class="inicio">
+
+            <div>
+                <p class="destaque">MODA FEMININA</p>
+
+                <h1>Seu estilo, do seu jeito.</h1>
+
+                <p>
+                    Roupas e acessórios para deixar
+                    seu visual ainda mais especial.
+                </p>
+
+                <a class="botao" href="#produtos">
+                    Ver produtos
+                </a>
+            </div>
+
+            <img
+                src="assets/images/banner.svg"
+                alt="Ilustração de roupas femininas"
+            >
+
+        </section>
+
+
+        <section id="produtos">
+
+            <h2>Nossos produtos</h2>
+
+            <ul class="beneficios">
+                <li>Peças para diferentes estilos</li>
+                <li>Produtos selecionados</li>
+                <li>Diversos tamanhos disponíveis</li>
+            </ul>
+
+            <div class="produtos">
+
+                <article class="card">
+
+                    <img
+                        src="assets/images/vestido.svg"
+                        alt="Vestido floral rosa"
+                    >
+
+                    <h3>Vestido Floral</h3>
+
+                    <p>R$ 129,90</p>
+
+                    <button type="button">
+                        Adicionar ao carrinho
+                    </button>
+
+                </article>
+
+
+                <article class="card">
+
+                    <img
+                        src="assets/images/blusa.svg"
+                        alt="Blusa feminina básica"
+                    >
+
+                    <h3>Blusa Basic</h3>
+
+                    <p>R$ 79,90</p>
+
+                    <button type="button">
+                        Adicionar ao carrinho
+                    </button>
+
+                </article>
+
+
+                <article class="card">
+
+                    <img
+                        src="assets/images/bolsa.svg"
+                        alt="Bolsa feminina pequena"
+                    >
+
+                    <h3>Bolsa Mini</h3>
+
+                    <p>R$ 99,90</p>
+
+                    <button type="button">
+                        Adicionar ao carrinho
+                    </button>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <section class="tamanhos">
+
+            <h2>Tamanhos disponíveis</h2>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Produto</th>
+                        <th>Tamanhos</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>Vestido Floral</td>
+                        <td>P, M e G</td>
+                    </tr>
+
+                    <tr>
+                        <td>Blusa Basic</td>
+                        <td>P, M, G e GG</td>
+                    </tr>
+
+                    <tr>
+                        <td>Bolsa Mini</td>
+                        <td>Tamanho único</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+
+        <section id="video" class="midia">
+
+            <h2>Conheça nossa coleção</h2>
+
+            <!--
+            O preload="metadata" foi escolhido porque queremos
+            carregar apenas informações básicas do vídeo antes
+            que o usuário decida reproduzi-lo.
+            -->
+
+            <video
+                controls
+                poster="assets/images/banner.svg"
+                preload="metadata"
+            >
+
+                <source
+                    src="assets/video/luna-lace.mp4"
+                    type="video/mp4"
+                >
+
+                <source
+                    src="assets/video/luna-lace.webm"
+                    type="video/webm"
+                >
+
+                <track
+                    src="assets/video/legendas.vtt"
+                    kind="subtitles"
+                    srclang="pt-BR"
+                    label="Português"
+                    default
+                >
+
+                Seu navegador não suporta vídeo HTML5.
+
+            </video>
+
+            <small id="suporte-video">
+                Verificando suporte do navegador...
+            </small>
+
+        </section>
+
+
+        <section class="contato">
+
+            <h2>Entre em contato</h2>
+
+            <form>
+
+                <fieldset>
+
+                    <legend>Seus dados</legend>
+
+
+                    <label for="nome">
+                        Nome
+                    </label>
+
+                    <input
+                        type="text"
+                        id="nome"
+                        name="nome"
+                        required
+                        minlength="3"
+                    >
+
+
+                    <label for="email">
+                        E-mail
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required
+                    >
+
+
+                    <label for="telefone">
+                        Telefone
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="telefone"
+                        name="telefone"
+                        placeholder="(00) 00000-0000"
+                    >
+
+
+                    <label for="tamanho">
+                        Tamanho favorito
+                    </label>
+
+                    <select
+                        id="tamanho"
+                        name="tamanho"
+                        required
+                    >
+
+                        <option value="">
+                            Selecione
+                        </option>
+
+                        <option value="P">P</option>
+                        <option value="M">M</option>
+                        <option value="G">G</option>
+                        <option value="GG">GG</option>
+
+                    </select>
+
+
+                    <button type="submit">
+                        Enviar
+                    </button>
+
+                </fieldset>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            &copy; 2026 VitrineStore — Projeto Integrador
+        </p>
+
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
