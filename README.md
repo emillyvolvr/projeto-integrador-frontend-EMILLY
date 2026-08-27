@@ -2,7 +2,7 @@
 
 Projeto básico em **HTML** e **CSS** que simula a vitrine de uma loja de roupas online, com fotos dos produtos, nomes, preços, informações detalhadas e um vídeo do YouTube com dicas sobre lojas de moda.
 
-## 📁 Estrutura do projeto
+## Estrutura do projeto
 
 ```
 loja-roupas/
@@ -11,7 +11,7 @@ loja-roupas/
 └── README.md       → Este arquivo
 ```
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 - **Cabeçalho** com o nome e slogan da loja.
 - **Grade de produtos (6 itens)**, cada um com:
@@ -24,7 +24,7 @@ loja-roupas/
 - **Layout responsivo**, adaptado para celular, tablet e desktop usando CSS Grid.
 - **Rodapé** simples com informações de direitos autorais.
 
-## 🖼️ Sobre as imagens
+## Sobre as imagens
 
 As fotos dos produtos usadas neste projeto são **placeholders** (imagens geradas automaticamente com o nome do produto), gerados pelo serviço `placehold.co`. Isso evita problemas de direitos autorais em um projeto de estudo.
 
