@@ -12,3 +12,4 @@ Este é um projeto acadêmico. Os produtos, preços, marca e imagens são fictí
 Colega seguiu todos os passos das aulas corretamente, utilizando de maneira correta o git (gitignore;read.me;conventional commits;pull requests;) além de usar todas tags necessárias
 
 Avaliador: Samuel Maciel Bandeira
+27/08/2026 - 19:21
