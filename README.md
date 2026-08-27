@@ -7,3 +7,8 @@ O projeto apresenta uma vitrine de produtos, tabela, links, imagens, formulário
 ## Observação
 
 Este é um projeto acadêmico. Os produtos, preços, marca e imagens são fictícios e foram criados exclusivamente para demonstração front-end.
+
+-----------------------------------------------------------------------
+Colega seguiu todos os passos das aulas corretamente, utilizando de maneira correta o git (gitignore;read.me;conventional commits;pull requests;) além de usar todas tags necessárias
+
+Avaliador: Samuel Maciel Bandeira
